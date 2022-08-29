@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F3F3F3;
+}
+
+.relative {
+    width: 375px;
+    position: relative;
+    margin: 0 auto;
+}
+
+header {
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 375px;
+    height: 80px;
+    display: flex;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.cabecalho-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 22px;
+}
+
+.cabecalho-div :nth-child(1) {
+    width: 75px;
+    height: 53px;
+}
+
+.cabecalho-div :nth-child(2) {
+    width: 45px;
+    height: 45px;
+}
+
+ul {
+    margin: 106px 0 100px 0;
+    width: 375px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div-mensagens {
+    width: 100%;
+    min-height: 40px;
+    margin: 2px 0px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    width: 100%;
+    padding: 2px 8px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.opacity {
+    filter: opacity(50%);
+}
+
+.entrouNaSala {
+    background-color: #dcdcdc;
+}
+
+.reservada {
+    background-color: #ffdede;
+}
+
+footer {
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 375px;
+    height: 80px;
+    display: flex;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    bottom: 0px;
+    z-index: 10;
+}
+
+.rodape-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 22px;
+    font-size: 18px;
+}
+
+footer img {
+    width: 26px;
+    height: 26px;
+}
+
+input {
+    border: none;
+    font-size: 18px;
+    color: #000000;
+    font-style: italic;
+}
+
+.tam {
+    width: 100%;
+}
